@@ -14,12 +14,15 @@
     let outputText = "";
     
     if (response=="Yes"){
-      outputText = " BJ ka saakin (BUKO JUICE) ";
-    }else if(response=="No"){
-      outputText = " edi wag ";
-    }else{
+      outputText = " Alam mo ba anong date ngayon? ";
+    }else if(response=="Yes"){
+      outputText = " ano nga daw? ";
+    }else{ Monthsary natin syempre}
       outputText = "please type Yes or No!!";
     }
+       let response = prompt("Mahal na mahal kita sana alam mo yon HAHAH Type Yes or No");
+     let outputText = "";
+     if (response=="Yes"){
     
     document.getElementById("resultText").innerHTML = outputText;
   </script>
